@@ -1,0 +1,53 @@
+
+ul.Main_menuQLNHCH li{
+margin:5px;
+}
+.Top_contentQLNHCH{
+	width:588px;
+	height:20px;
+	margin:50px 0 0 100px;
+}
+.Text_contentQLNHCH{
+	width:400px;
+	float:left;
+	text-align:left;
+	font-weight:bold;
+	font-size:30px;	
+}
+.icon_search{
+	width:10px;
+	height:10px;
+	float:right;
+	
+}
+input.input_search{
+	float:right;
+	width:150px;
+
+	
+}
+.Mid_contentQLNHCH{
+	width:600px;
+	height:100px;
+	background-color:#CCC;
+	border-radius:15px;
+	margin:30px 0 0 100px;
+	
+}
+.text_link{
+	font-size:24px;
+	font-weight:bold;
+	margin-left:20px;
+	padding-top:10px;
+}
+.text{
+	font-weight:bold;
+	font-size:16px;
+	margin-left:20px;
+	}
+.img_dele{
+	float:right;
+}
+.Search_contentQLNHCH{
+padding-top:10px;
+}

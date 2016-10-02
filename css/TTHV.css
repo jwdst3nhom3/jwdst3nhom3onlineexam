@@ -1,0 +1,41 @@
+.Nhap_TT{
+width:588px;
+height:auto;
+background-color:#CCC;
+margin:100px;
+border-radius:15px;
+box-shadow:10px 10px 5px grey;
+}
+.hoc_vien{
+font-weight:bold;
+text-align:center;
+padding:10px;
+font-size:24px;
+color:#000;
+
+}
+label.name{
+width:75px;
+float:left;
+font-size:12px;
+text-align:right;
+color:#000;
+padding:4px 5px 0 0;
+margin-left:80px;
+margin-top:10px;
+}
+input.name_input{
+	width:300px;
+	margin-top:10px;
+}
+button.ok_button{
+margin-left:250px;
+width:100px;
+border-radius:15px;
+background-color:#fff;
+margin-bottom:10px;
+margin-top:10px;
+
+color:#000;
+font-size:16px;
+}

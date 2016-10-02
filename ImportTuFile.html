@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Thêm câu hỏi</title>
+  <link rel="stylesheet" type="text/css" href="css/Header.css"/>
+  <link rel="stylesheet" type="text/css" href="css/Content.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/ImportTufile.css"/>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript">
+ function getFile(){
+   document.getElementById("upfile").click();
+ }
+ function sub(obj){
+    var file = obj.value;
+    var fileName = file.split("\\");
+    document.getElementById("yourBtn").innerHTML = fileName[fileName.length-1];
+    document.myForm.submit();
+    event.preventDefault();
+  }
+  </script>
+  </head>
+
+  <body>
+<div class="Main"> 
+    <!--Header: Start-->
+    <div class="Header">
+    <div class="image" > </div>
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="overflow:auto">
+        <ul class="nav navbar-nav" style="width:90%; overflow:hidden">
+        <li class="active" style="width:10%"><a href="#">Trang chủ</a></li>
+        <li  ><a href="#">My profile</a></li>
+      </ul>
+        <ul class="nav navbar-nav" style="width:10%; overflow:hidden">
+        <li  ><a href="#" >Đăng xuất</a></li>
+      </ul>
+      </nav>
+  </div>
+    <!--Header: Stop--> 
+    
+    <!--content: Start-->
+    <div class="Content"> 
+    <!--content: Stop--> 
+    <!--Left_content: Start-->
+    <div class="Left_content">
+        <div class="Left_content">
+        <ul class="list-group">
+            <a href="#" class="list-group-item list-group-item-success">Menu</a> <a href="ThemCauHoi.html" class="list-group-item">Thêm câu hỏi</a> <a href="TaoLinhVucMoi.html" class="list-group-item">Tạo lĩnh vực mới</a>
+          </ul>
+      </div>
+      </div>
+    
+    <!--Left_content: Stop--> 
+    
+    <!--Center_content: Start-->
+    
+    <div class="Center_content">
+        <div class="Main_content">
+        <div class="Top_Main_content">Lĩnh vực DataBase</div>
+        <div class="Mid_Main_content"> Bạn muốn nhập câu hỏi bằng cách nào? </div>
+        <div class="Bottom_Main_content">
+            <form action="#type your action here" method="POST" enctype="multipart/form-data" name="myForm">
+            <button id="yourBtn" onclick="getFile()">chọn tiệp</button>
+            <div style="height: 0px;width: 0px; overflow:hidden;">
+                <input id="upfile" type="file" value="upload" onchange="sub(this)"/>
+              </div>
+          </form>
+            <input type="file" class="Left_btn"   />
+            <a href="ThemThanhCong.html">
+          <button class="Mid_btn_Themcauhoi">OK</button>
+          </a> </div>
+      </div>
+      </div>
+    <!--Center_content: Stop--> 
+    
+    <!--Right_content: Start-->
+    <div class="Right_content"> </div>
+  </div>
+  </div>
+<!--Right_content: Stop-->
+
+<div class="Footer"> </div>
+</div>
+</body>
+</html>

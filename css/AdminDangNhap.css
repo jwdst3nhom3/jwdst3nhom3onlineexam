@@ -1,0 +1,25 @@
+/* CSS Document */
+
+.Top_Main_content_Admin{
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+}
+.Input_Text_Mid_Main_content_Admin{
+	margin: 10px 0 0 60px;
+	float:left;
+	width:80px;
+}
+input.Input_Text_Mid_Main_content_Admin{
+	float:left;
+	width:200px;
+	
+}
+.Cb_Mid_Main_content{
+	float:left;
+	margin-left:10px;
+}
+input.Cb_Mid_Main_content{
+	float:left;
+	margin-left:150px;
+}
