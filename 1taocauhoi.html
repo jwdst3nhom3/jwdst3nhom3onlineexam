@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="image/549474-default_image__luffy_s_straw_hat__object_page_.png" type="image/x-icon">
+
   
 
 
@@ -19,6 +20,7 @@
   <link href="css/content1.css" rel="stylesheet">
   <link href="css/content2.css" rel="stylesheet">
   <script type="text/javascript"src="js/lich.js"></script>
+
 </head>
 
 <body>
@@ -66,26 +68,60 @@
 
     <div class="container">
      <div class="main">
+
       <div class="thongtin">
         <div class="jumbotron">
-          <h3><a href="#">Bài thu hoạch chính trị 2016-2017</a></h3>
-          <h4>Deadline: 10/9 - 14/9</h4>
-          <h5>Teacher: Le Quang Binh</h5>
-          <a href="1taocauhoi1.html"><button class="button">chỉnh sửa</button></a>
-        </div>
-        <br>
-        <div class="jumbotron">
-          <h3><a href="#">Cơ học cơ sở - Nhóm 1</a></h3>
-          <h4>Deadline: 15/9 - 19/9</h4>
-          <h5>Teacher: Trang Tran Trien</h5>
+            <table>
+              <tr>
+               <td>Mã Đề: </td>
+               <td>
+                 <input class="button" type="text" name="Made">
+               </td>
+             </tr>
+             <tr>
+              <td>Tựa đề:</td>
+              <td> <input class="button" type="text" name="Tuade"></td>
+            </tr> 
+            <tr>
+              <td>  Thời gian làm bài (Phút):</td>
+              <td> <input class="button" type="text" name="Thoigian"></td>
+            </tr>
+          <tr>
+            <td> Lĩnh Vực:</td>
+            <td>
 
-          <a href="1taocauhoi1.html"><button class="button">chỉnh sửa</button></a>
+              <select class="button" name="linhvuc">
+                <option value="None" selected>None</option>
+                <option value="chinhtrii">Chính trị</option>
+                <option value="lichsu">Lịch sử</option>
+                <option value="Phattrien">Phát triển</option>
+              </select>
+              <a href="1taocauhoi1.html"><button id="them" class="button">Thêm</button> </a>
+            </td>
 
-        </div>
-      </div>
+          </tr><tr>
+          <td> Số Lượng Câu:</td>
+          <td>
+            <select class="button" name="soluong" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="index.html"><button class="button">Hủy</button> </a>
+            <a ><button id="ht" class="button">Hoàn thành</button> </a>
 
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
+</div>
+</div>
 </section>
 
 <footer>
@@ -98,6 +134,26 @@
 
 
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript"src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+  function validateText(id)
+  {
+    if($("#"+id).val()==null || $("#"+id).val()=="" )
+    {
+      var td = $("#"+id).closest("td");
+      td.addClass("has-error");
+      return false;
+    }
+  }
+  $(document).ready(
+    function()
+    {
+      $("#ht").click(function() 
+      {
+        validateText("Made")
+      });
+    });
+
+  </script>
 </body>
 </html>
