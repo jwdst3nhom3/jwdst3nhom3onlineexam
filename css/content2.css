@@ -18,6 +18,7 @@ header {
 	background-color: #1f9fba;
 }
 h1 {
+
 	margin: 0;
     position: absolute;
     top: 0;
@@ -138,6 +139,12 @@ text-decoration: none;
     color:#9bba1f;
     border-bottom: 1px solid #fff;
 
+}
+.col-sm-7{
+    margin-bottom: 10px;
+}
+label{
+    padding-top:5px;
 }
 								/*footer*/
 /*het footer*/
