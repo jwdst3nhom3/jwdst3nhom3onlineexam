@@ -1,0 +1,62 @@
+.Main_content{
+	margin-left:20px;
+	border-radius:15px;
+	background-color:#fff;
+	width:90%;
+	height:400px;
+	
+}
+.Top_Main_content{
+font-size:30px;
+font-weight:bold;
+text-align:center;
+padding-top:10px;
+}
+
+
+.Text_Mid_Main_content{
+	width:588px;
+	float:left;
+	margin: 5px;
+	
+	
+}
+.Input_Text_Mid_Main_content{
+	float:left;
+	margin-left:50px;
+	font-size:16px;
+}
+textarea.Input_Text_Mid{
+	float:left;
+	min-width:300px;
+	max-width:300px;
+	height:100px;}
+
+}
+.option{
+	float:left;
+}
+.Bottom_Main_content_Taocauhoi{
+	width:400px;
+	margin:50px 0 10px 100px;
+}
+button.Left_btn{
+	width:100px;
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	float:left;
+	outline:none;
+	
+}
+
+button.Right_btn{
+	width:100px;
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	float:right;
+outline:none;
+}
+/* CSS Document */
+

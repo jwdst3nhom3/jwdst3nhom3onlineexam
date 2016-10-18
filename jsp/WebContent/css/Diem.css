@@ -1,0 +1,46 @@
+.table-end{
+	width:400px;
+	margin:20px 50px 0 100px;
+}
+.end-test{
+width:588px;
+height:auto;
+background-color:#fff;
+border-radius:15px;
+
+}
+.top-end{
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+	
+}
+.mid-end{
+font-size:16px;
+text-align:center;
+}
+th,td,table{
+border: 1px solid black;	
+}
+
+
+
+button.ok{
+border-radius:15px;
+color:#000;
+background-color:#FFF;
+margin-left:230px;
+margin-bottom:10px;
+width:100px;
+height:30px;
+outline:none;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
+/* CSS Document */
+

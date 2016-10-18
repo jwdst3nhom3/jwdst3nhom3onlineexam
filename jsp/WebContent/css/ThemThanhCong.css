@@ -1,0 +1,33 @@
+.Main_content{
+	margin-left:20px;
+	border-radius:15px;
+	background-color:#fff;
+	width:90%;
+	height:auto;
+	
+}
+.Top_Main_content{
+font-size:30px;
+font-weight:bold;
+text-align:center;
+padding-top:10px;
+}
+.Mid_Main_content{
+font-size:16px;
+padding-top:10px;
+text-align:center;
+}
+.Mid_btn{
+width:100px;
+border-radius:15px;
+background-color:#fff;
+color:#000;
+margin-left:200px;
+outline:none;
+
+}
+.Bottom_Main_content{
+height:50px;	
+margin-top:10px;
+}/* CSS Document */
+
