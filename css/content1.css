@@ -1,8 +1,6 @@
-/* CSS Document */
-
 .Left{
-	width: 20%;
-	height: 400px;
+	width: 250px;
+	height: 288px;
 	float:left;
 	background-color: #9bba1f;
 	margin-left:30px;
@@ -17,12 +15,11 @@
 	margin-left: 350px;
 	float: center;
 }
-.Right{
-	width: 20%;
-	height: 400px;
+.right{
+	width: 250px;
 	float: right;
 	background-color: #ca3535;
-	margin-left:10px;
+	margin-right:30px;
 	margin-bottom: 20px;
 }
 .button{
@@ -35,7 +32,7 @@
 .button:hover {background-color: #e7e7e7;}
 
 .jumbotron{
-	box-shadow: 5px 5px 10px;
+	box-shadow: 0px 0px 10px 1px;
 	background-color: white;
 }
 .input{
@@ -62,22 +59,31 @@ td, th {
 	background-color: #00bf00;
 }
 .main{
-	margin-left: 160px;
 	margin-bottom: 20px;
-	padding:50px;
-	width:70%;
-	height: auto;
+	padding:50px 50px 50px 80px;
+	width:700px;
 	border-left: solid white 0px;
 	border-right: solid white 0px;
 	background-color: #ff9900;
 }
-section{
-	margin: 0 40px;
-}
 body{
 	background-color: #f7f7f7;
 }
-.calendar{
-margin-top:20px;
-margin-left:8px;
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container1 .jumbotron,
+  .container1-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 6px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
 }
+.container1:before,
+.container1:after,
