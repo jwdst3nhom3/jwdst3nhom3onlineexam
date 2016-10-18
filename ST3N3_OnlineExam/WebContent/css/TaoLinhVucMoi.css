@@ -1,0 +1,58 @@
+/* CSS Document */
+
+.Main_content_taomoilinhvuc{
+	margin-left:20px;
+	border-radius:15px;
+	background-color:#fff;
+	width:90%;
+	height:auto;
+	
+}
+.Top_Main_content{
+font-size:30px;
+font-weight:bold;
+text-align:center;
+padding-top:10px;
+}
+.Text_Mid_Main_content{
+display:inline-block;
+margin-left:50px;
+margin-top:10px;
+}
+.Input_Text_Mid_Main_content{
+float:left;
+}
+input.Input_Text_Mid_Main_content{
+float:left;
+width:300px;
+margin-left:10px;
+
+}
+textarea.Input_Text_Mid{
+margin-left:50px;
+width:300px;
+max-width:300px;
+min-width:300px;
+}
+button.Left_btn{
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	float:left;
+	width:100px;
+	outline:none;
+	
+}
+button.Right_btn{
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	float:right;
+	width:100px;
+	outline:none;
+}
+.Bottom_Main_content{
+	width:400px;
+	height:40px;
+	margin:10px 50px 10px 60px;
+}

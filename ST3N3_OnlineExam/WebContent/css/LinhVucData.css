@@ -1,0 +1,45 @@
+.QLNGCHLinhVucData {
+	width: 90%;
+	height: auto;
+	border-radius: 15px;
+	margin-left: 20px;
+	background-color: #fff;
+	
+}
+.Top_QLNGCHLinhVucData {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.Mid_QLNGCHLinhVucData {
+	margin-left: 20px;
+	font-size: 16px;
+}
+.Top_Mid_QLNGCHLinhVucData {
+	text-align: left;
+}
+.Bottom_Mid_QLNGCHLinhVucData {
+	text-align: left;
+}
+.Bottom_QLNGCHLinhVucData {
+	margin: 20px 50px 0 100px;
+	height: 50px;
+	width: 350px;
+}
+input.Left_btn {
+	float: left;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	outline:none;
+}
+input.Right_btn {
+	float: Right;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	outline:none;
+}
+/* CSS Document */
+

@@ -1,0 +1,86 @@
+.Main_content {
+	width: 100%;
+	height: auto;
+
+	background-color: #fff;
+	border-radius: 15px;
+	
+}
+.Top_Main_content {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+}
+.Mid_Main_content {
+	text-align: center;
+	margin-left:30px;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+	background: #fff;
+	
+	
+}
+tr{
+	display:table-row;
+}
+th,td {
+	border: 1px solid #000;
+	text-align: center;
+	
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
+
+.Bottom_Main_content {
+	width: 500px;
+	height: 40px;
+	margin: 10px;
+}
+button.Left_btn {
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	float: left;
+	outline: none;
+}
+button.Mid_btn {
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	margin-left: 100px;
+	outline: none;
+}
+button.Right_btn {
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	float: right;
+	outline: none;
+}
+input.Left_btn {
+	float: left;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	width: 100px;
+	outline: none;
+}
+input.Right_btn {
+	float: Right;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	width: 100px;
+	outline: none;
+}
+/* CSS Document */
+
+/* CSS Document */
+
