@@ -32,22 +32,22 @@
 		<link>
 			<name>WebContent/css/AdDSQuyen.css</name>
 			<type>1</type>
-			<location>..\css/AdDSQuyen.css</location>
+			<location>/../css/AdDSQuyen.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/AdDSTK.css</name>
 			<type>1</type>
-			<location>..\css/AdDSTK.css</location>
+			<location>/../css/AdDSTK.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/AdThemQuyen.css</name>
 			<type>1</type>
-			<location>..\css/AdThemQuyen.css</location>
+			<location>../css/AdThemQuyen.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/AdThemTK.css</name>
 			<type>1</type>
-			<location>..\css/AdThemTK.css</location>
+			<location>../css/AdThemTK.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/BatDau.css</name>
