@@ -32,217 +32,217 @@
 		<link>
 			<name>WebContent/css/AdDSQuyen.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/AdDSQuyen.css</location>
+			<location>../css/AdDSQuyen.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/AdDSTK.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/AdDSTK.css</location>
+			<location>../css/AdDSTK.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/AdThemQuyen.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/AdThemQuyen.css</location>
+			<location>../css/AdThemQuyen.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/AdThemTK.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/AdThemTK.css</location>
+			<location>../css/AdThemTK.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/BatDau.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/BatDau.css</location>
+			<location>../css/BatDau.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/Cau.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/Cau.css</location>
+			<location>../css/Cau.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/CauHoi.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/CauHoi.css</location>
+			<location>../css/CauHoi.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/Content.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/Content.css</location>
+			<location>../css/Content.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/Diem.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/Diem.css</location>
+			<location>../css/Diem.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/Header.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/Header.css</location>
+			<location>../css/Header.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/HocVien.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/HocVien.css</location>
+			<location>../css/HocVien.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/ImportFile.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/ImportFile.css</location>
+			<location>../css/ImportFile.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/KetThuc.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/KetThuc.css</location>
+			<location>../css/KetThuc.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/LinhVucData.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/LinhVucData.css</location>
+			<location>../css/LinhVucData.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/QuanLiCauHoi.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/QuanLiCauHoi.css</location>
+			<location>../css/QuanLiCauHoi.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/TaoLinhVucMoi.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/TaoLinhVucMoi.css</location>
+			<location>../css/TaoLinhVucMoi.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/ThemCauHoi.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/ThemCauHoi.css</location>
+			<location>../css/ThemCauHoi.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/ThemMoiCauHoi.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/ThemMoiCauHoi.css</location>
+			<location>../css/ThemMoiCauHoi.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/ThemThanhCong.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/ThemThanhCong.css</location>
+			<location>../css/ThemThanhCong.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/ThongTinHV.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/ThongTinHV.css</location>
+			<location>../css/ThongTinHV.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/bootstrap.min.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/bootstrap.min.css</location>
+			<location>../css/bootstrap.min.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/content1.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/content1.css</location>
+			<location>../css/content1.css</location>
 		</link>
 		<link>
 			<name>WebContent/css/content2.css</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/css/content2.css</location>
+			<location>../css/content2.css</location>
 		</link>
 		<link>
 			<name>WebContent/image/197.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/197.jpg</location>
+			<location>../image/197.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/2.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/2.jpg</location>
+			<location>../image/2.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/Background.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/Background.jpg</location>
+			<location>../image/Background.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/icon_cancle.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/icon_cancle.jpg</location>
+			<location>../image/icon_cancle.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/icon_lete.png</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/icon_lete.png</location>
+			<location>../image/icon_lete.png</location>
 		</link>
 		<link>
 			<name>WebContent/image/icon_lg1.png</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/icon_lg1.png</location>
+			<location>../image/icon_lg1.png</location>
 		</link>
 		<link>
 			<name>WebContent/image/icon_pass.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/icon_pass.jpg</location>
+			<location>../image/icon_pass.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/icon_username.png</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/icon_username.png</location>
+			<location>../image/icon_username.png</location>
 		</link>
 		<link>
 			<name>WebContent/image/login.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/login.jpg</location>
+			<location>../image/login.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/logo.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/logo.jpg</location>
+			<location>../image/logo.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/oclock.png</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/oclock.png</location>
+			<location>../image/oclock.png</location>
 		</link>
 		<link>
 			<name>WebContent/image/pic1.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/pic1.jpg</location>
+			<location>../image/pic1.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/pic2.jpg</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/pic2.jpg</location>
+			<location>../image/pic2.jpg</location>
 		</link>
 		<link>
 			<name>WebContent/image/search.png</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/image/search.png</location>
+			<location>../image/search.png</location>
 		</link>
 		<link>
 			<name>WebContent/js/angular.js</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/js/angular.js</location>
+			<location>../js/angular.js</location>
 		</link>
 		<link>
 			<name>WebContent/js/bootstrap.js</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/js/bootstrap.js</location>
+			<location>../js/bootstrap.js</location>
 		</link>
 		<link>
 			<name>WebContent/js/bootstrap.min.js</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/js/bootstrap.min.js</location>
+			<location>../js/bootstrap.min.js</location>
 		</link>
 		<link>
 			<name>WebContent/js/jquery-1.12.4.min.js</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/js/jquery-1.12.4.min.js</location>
+			<location>../js/jquery-1.12.4.min.js</location>
 		</link>
 		<link>
 			<name>WebContent/js/jquery-3.1.1.min.js</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/js/jquery-3.1.1.min.js</location>
+			<location>../js/jquery-3.1.1.min.js</location>
 		</link>
 		<link>
 			<name>WebContent/js/lich.js</name>
 			<type>1</type>
-			<location>E:/LTWeb/OnlineExam/js/lich.js</location>
+			<location>../js/lich.js</location>
 		</link>
 	</linkedResources>
 </projectDescription>
