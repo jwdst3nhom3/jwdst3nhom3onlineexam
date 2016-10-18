@@ -1,0 +1,47 @@
+.Main_content{
+	margin-left:20px;
+	border-radius:15px;
+	background-color:#fff;
+	width:90%;
+	height:auto;
+	
+}
+.Top_Main_content{
+font-size:30px;
+font-weight:bold;
+text-align:center;
+padding-top:10px;
+}
+.Mid_Main_content{
+font-size:16px;
+text-align:center;
+}
+button.Left_btn{
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	float:left;
+	outline:none;
+	
+}
+button.Mid_btn{
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	margin-left:100px;
+	outline:none;
+}
+button.Right_btn{
+	border-radius:15px;
+	background-color:#fff;
+	color:#000;
+	float:right;
+	outline:none;
+}
+.Bottom_Main_content{
+	width:500px;
+	height:40px;
+ margin:10px;
+}
+/* CSS Document */
+

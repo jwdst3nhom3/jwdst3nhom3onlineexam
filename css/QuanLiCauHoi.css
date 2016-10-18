@@ -1,0 +1,66 @@
+
+ul.Main_menuQLNHCH li{
+margin:5px;
+}
+.Top_contentQLNHCH{
+	width:90%;
+	height:20px;
+	margin-left: 20px;
+	display:inline-block;
+
+}
+.Text_contentQLNHCH{
+	width:300px;
+	float:left;
+	text-align:left;
+	font-weight:bold;
+	font-size:30px;	
+	
+}
+.icon_search{
+	width:10px;
+	height:10px;
+	float:right;
+	margin-top:2px;
+
+	
+}
+input.input_search{
+	float:right;
+	width:135px;
+		
+
+	
+}
+.Mid_contentQLNHCH{
+	width:90%;
+	height:100px;
+	background-color:#fff;
+	border-radius:15px;
+	margin-left: 20px;
+	margin-top:30px;
+
+
+	
+}
+.text_link{
+	font-size:24px;
+	font-weight:bold;
+	margin-left:20px;
+	padding-top:10px;
+}
+.text{
+	font-weight:bold;
+	font-size:16px;
+	margin-left:20px;
+	}
+.img_dele{
+	float:right;
+}
+.Search_contentQLNHCH{
+float:right;
+display:inline;
+margin-top:10px;
+}
+/* CSS Document */
+
