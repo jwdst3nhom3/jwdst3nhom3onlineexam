@@ -1,0 +1,55 @@
+/* CSS Document */
+.Main_content{
+	width:90%;
+	height:auto;
+	background-color:#fff;
+	border-radius:15px;
+	
+}
+.Mid_Main_content{
+	height:200px;
+}
+.Top_Main_content{
+	font-size:30px;
+	text-align:center;
+	font-weight:bold;
+	padding-top:10px;	
+}
+.Text_Mid_Main{
+	font-size:16px;
+		float:left;
+		width:150px;
+}
+.Text_Mid_Main_content{
+	width:370px;
+	margin:10px;	
+}
+.Input_Text_Mid_Main_content{
+		font-size:16px;
+		float:left;
+		width:200px;
+		margin:10px;
+}
+.Bottom_Main_content{
+	width:300px;
+	height:50px;
+	margin-left:100px;
+	}
+input.Left_btn {
+	float: left;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	width:100px;
+	outline:none;
+	}
+input.Right_btn {
+	float: Right;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	width:100px;
+	outline:none;
+}
+/* CSS Document */
+
