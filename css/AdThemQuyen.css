@@ -1,0 +1,68 @@
+.Input_Mid_Main_content{
+
+display:inline-block;
+margin-left:50px;
+margin-top:20px;
+
+}
+.text_quyen{
+float:left;
+
+}
+.text_input{ 
+margin-left:75px;
+}
+.option{
+	width:100px;
+	display:inline;
+		
+}
+.Bottom_Main_content{
+	width:300px;
+	height:50px;
+	margin-left:130px;
+}
+.Main_content{
+	width:90%;
+	height:auto;
+	margin-left:20px;
+background-color:#fff;
+border-radius:15px;
+
+	
+}
+.Top_Main_content{
+	font-size:30px;
+	font-weight:bold;
+	margin:10px;
+	text-align:center;
+}
+.Mid_Main_content
+{
+display:inline;
+
+}
+.Bottom_Main_content{
+	width:400px;
+	height:40px;
+	margin:10px ;
+	margin-left:50px;
+}
+input.Left_btn {
+	float: left;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	width:100px;
+	outline:none;
+	}
+input.Right_btn {
+	float: Right;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	width:100px;
+	outline:none;
+}
+/* CSS Document */
+
