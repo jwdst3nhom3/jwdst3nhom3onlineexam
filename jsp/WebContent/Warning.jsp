@@ -5,14 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="icon" href="image/logo.jpg"  />
-<title>Thông tin học viên</title>
+<title>Warning</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/lich.js"></script>
 <link rel="stylesheet" type="text/css" href="css/Header.css"/>
 <link rel="stylesheet" type="text/css" href="css/Content.css"/>
-<link rel="stylesheet" type="text/css" href="css/ThongTinHV.css"/>
+<link rel="stylesheet" type="text/css" href="css/BatDau.css"/>
 <script>
 $(document).ready(function(){
     $("#myBtn").click(function(){
@@ -29,13 +29,13 @@ $(document).ready(function(){
       <div class="grid">
         <div class="indent-bottom">
           <h1>
-            <a href="HocVien.jsp">
+            <a href="Học Viên.html">
             <img src="image/logo.jpg" />
             </a>
           </h1>
           <nav>
             <ul class="menu">
-              <li id="myBtn" style="margin-left:60%"   >
+              <li id="myBtn" style="margin-left:60%"  >
                 <a href="#" class="blue" >
                 Đăng nhập
                 </a>
@@ -44,7 +44,7 @@ $(document).ready(function(){
           </nav>
         </div>
         <div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               
@@ -88,7 +88,7 @@ $(document).ready(function(){
       <div class="modal-content">
         <div class="modal-header" style="padding:35px 50px;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><img src="image/login.jpg" /> Đăng nhập</h4>
+          <h3 style="text-align:center"><img src="image/login.jpg" /> Đăng nhập</h3>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
           <form role="form">
@@ -113,12 +113,7 @@ $(document).ready(function(){
                 <input type="checkbox" value="" checked>
                 Nhớ tài khoản</label>
             </div>
-            <button type="submit" class="btn btn-success btn-block">
-            <img src="image/icon_lg1.png" />
-            <a href="AdDSTK">
-            Đăng nhập
-            </a>
-            </button>
+            <button type="submit" class="btn btn-success btn-block"><img src="image/icon_lg1.png" /> Đăng nhập</button>
           </form>
         </div>
         <div class="modal-footer">
@@ -153,27 +148,12 @@ $(document).ready(function(){
   </div>
   <div class="container">
     <div class="main">
-      <div class="Center_content">
-        <div class="Nhap_TT">
-          <div class="hoc_vien">Nhập Thông Tin Học Viên</div>
-          <div class="form_nhap">
-            <div class="form_row">
-              <label class="name"><strong>Mã Số :</strong></label>
-              <input type="text" class="name_input" />
-            </div>
-            <div class="form_row">
-              <label class="name"><strong>Họ Tên :</strong></label>
-              <input type="text" class="name_input" />
-            </div>
-            <div class="form_row">
-              <label class="name"><strong>CMND :</strong></label>
-              <input type="text" class="name_input" />
-            </div>
-            <a href="BatDau.jsp">
-            <button class="ok_button" >OK</button>
-            </a>
-          </div>
-        </div>
+      <div class="batdau">
+        <p>Cơ học cơ sở - Nhóm 2</p>
+        <div class="thongtin">Bài thi đã được hoàn thành hoặc không năm trong thời gian làm bài.</div>
+        <a href="HocVien.jsp">
+        <button class="star_btn" > OK</button>
+        </a>
       </div>
     </div>
   </div>

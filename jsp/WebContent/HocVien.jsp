@@ -3,16 +3,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text; charset=utf-8" />
 <link rel="icon" href="image/logo.jpg"  />
-<title>Thông tin học viên</title>
+<title>Trang Chủ</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/lich.js"></script>
 <link rel="stylesheet" type="text/css" href="css/Header.css"/>
 <link rel="stylesheet" type="text/css" href="css/Content.css"/>
-<link rel="stylesheet" type="text/css" href="css/ThongTinHV.css"/>
+<link rel="stylesheet" type="text/css" href="css/HocVien.css"/>
 <script>
 $(document).ready(function(){
     $("#myBtn").click(function(){
@@ -35,7 +35,7 @@ $(document).ready(function(){
           </h1>
           <nav>
             <ul class="menu">
-              <li id="myBtn" style="margin-left:60%"   >
+              <li id="myBtn" style="margin-left:60%"  >
                 <a href="#" class="blue" >
                 Đăng nhập
                 </a>
@@ -44,7 +44,7 @@ $(document).ready(function(){
           </nav>
         </div>
         <div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               
@@ -88,7 +88,7 @@ $(document).ready(function(){
       <div class="modal-content">
         <div class="modal-header" style="padding:35px 50px;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><img src="image/login.jpg" /> Đăng nhập</h4>
+          <h3 style="text-align:center"><img src="image/login.jpg" /> Đăng nhập</h3>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
           <form role="form">
@@ -114,9 +114,8 @@ $(document).ready(function(){
                 Nhớ tài khoản</label>
             </div>
             <button type="submit" class="btn btn-success btn-block">
-            <img src="image/icon_lg1.png" />
-            <a href="AdDSTK">
-            Đăng nhập
+            <a href="AdDSTK.jsp">
+            <img src="image/icon_lg1.png" /> Đăng nhập
             </a>
             </button>
           </form>
@@ -153,27 +152,29 @@ $(document).ready(function(){
   </div>
   <div class="container">
     <div class="main">
-      <div class="Center_content">
-        <div class="Nhap_TT">
-          <div class="hoc_vien">Nhập Thông Tin Học Viên</div>
-          <div class="form_nhap">
-            <div class="form_row">
-              <label class="name"><strong>Mã Số :</strong></label>
-              <input type="text" class="name_input" />
-            </div>
-            <div class="form_row">
-              <label class="name"><strong>Họ Tên :</strong></label>
-              <input type="text" class="name_input" />
-            </div>
-            <div class="form_row">
-              <label class="name"><strong>CMND :</strong></label>
-              <input type="text" class="name_input" />
-            </div>
-            <a href="BatDau.jsp">
-            <button class="ok_button" >OK</button>
-            </a>
-          </div>
-        </div>
+      <div class="center_text" style="padding:5px 10px">
+        <a href="ThongTinHV.jsp"  style="font-size:30px">
+        Bài Thu Hoạch Chính Trị 2016-2017
+        </a>
+        <p>DeadLine:19/9-23/9</p>
+        <p >Teacher :
+          <a href="#" style="font-size:20px">
+          Trần Đình Toại
+          </a>
+        </p>
+      </div>
+      <!--Center_content: stop-->
+      <!--Center_content: Start-->
+      <div class="center_text" style="padding:5px 10px">
+        <a href="Warning.jsp" style="font-size:30px">
+        Cơ học cơ sơ - Nhom 2
+        </a>
+        <p>DeadLine:10/9-23/9</p>
+        <p >Teacher :
+          <a href="#" style="font-size:20px">
+          Trần Thiện Hảo
+          </a>
+        </p>
       </div>
     </div>
   </div>
