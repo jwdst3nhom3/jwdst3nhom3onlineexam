@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1300px)
+{
+	div.Left{
+		position: relative;
+		margin:0 20% 0 15%;
+		float: none;
+		width: 70%;
+	}
+	div.container1{
+		margin:0 20% 0 15%;
+		clear: left;
+		clear: right;
+		width: 70%;
+	}
+	div.right{
+		position: relative;
+		margin:0 20% 0 15%;
+		width: 70%;
+		float: none;
+	}
+	nav{
+		float: right;
+	}
+
+}
+@media only screen and (max-width: 1100px)
+{ 
+	nav{
+		width: 100%;
+	}
+	.menu > li > a {
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    white-space: nowrap;
+}
+	li {
+	width: 100%;
+	border-color: white;
+    display: list-item;
+    text-align: center;
+    display: inline;
+    font: bold 15px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+	h1 {
+    position: static;
+    margin-bottom: 20px;
+	}
+	div.menu{
+		width: 100%;
+		clear: left;
+		clear: right;
+	}
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container1 .jumbotron,
+  .container1-fluid .jumbotron {
+  	padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+
+}
+
+@media only screen and (max-width: 550px)
+{ 
+
+	div.main{
+	padding-right: 2em;
+    padding-left: 2em;
+	}
+}

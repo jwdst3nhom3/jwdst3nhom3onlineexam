@@ -1,22 +1,27 @@
 .Left{
-	width: 250px;
-	height: 288px;
-	float:left;
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	left:0;
+	float: left;
 	background-color: #9bba1f;
 	margin-left:30px;
 	margin-bottom: 20px;
 }
 .thongtin{
-	width:550px;
+	width:100%;
 }
 
-.center1{
+.center{
+	position: relative;
 	width:100%;
-	margin-left: 350px;
-	float: center;
 }
 .right{
-	width: 250px;
+	position: absolute;
+	right: 0;
+	float: right;
+	width: 20%;
+	height: 100%;
 	float: right;
 	background-color: #ca3535;
 	margin-right:30px;
@@ -36,9 +41,11 @@
 	background-color: white;
 }
 .input{
+	width: 100%;
 	border-radius: 15px;
 	border:1px solid #cccccc;
 	background-color: #fff;
+	padding: 5px 15px;
 	outline: none;
 }
 table {
@@ -61,10 +68,10 @@ td, th {
 .main{
 	margin-bottom: 20px;
 	padding:50px 50px 50px 80px;
-	width:700px;
+	width:100%;
 	border-left: solid white 0px;
 	border-right: solid white 0px;
-	background-color: #ff9900;
+	background-color: #1f9fba;
 }
 body{
 	background-color: #f7f7f7;

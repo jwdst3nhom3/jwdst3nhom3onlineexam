@@ -1,6 +1,7 @@
 									/*header*/
 div.indent-bottom {
     display: block;
+    width: 100%;
 }
 #header {
     width: 100%;
@@ -9,7 +10,6 @@ div.indent-bottom {
 }
 header {
     width: 100%;
-    height: 430px;
     padding-bottom: 18px;
 }
 .thanh{
@@ -18,7 +18,6 @@ header {
 	background-color: #1f9fba;
 }
 h1 {
-
 	margin: 0;
     position: absolute;
     top: 0;
@@ -27,31 +26,25 @@ h1 {
 }
 
 .grid{
-	width: 950px;
-	height: 450px;
+	width: 100%;
 }
 #header.indent-bottom{
     padding-bottom: 12px;
 }
 .container {
     position: relative;
-    width: 960px;
+    width: 70%;
     margin: 0 auto;
     padding: 0;
 }
 .container1 {
-    
+    margin: 0 25% 0 24.5%;
     position: relative;
-    width: 700px;
-    margin: 0 auto;
+    width: 51%;
     padding: 0;
 }
-nav{
-	display: block;
-	width: 635px;
-	height: 100px;
-}
 .menu > li > a {
+    width: 100%;
     display: block;
     color: #fff;
     padding: 31px 9px 27px;
@@ -82,7 +75,14 @@ li a {
     text-decoration: none;
     text-transform: uppercase;
 }
- li {
+.menu > li {
+    display: list-item;
+    text-align: center;
+    display: inline-block;
+    font: bold 15px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.list-group > li {
+    width: 100%;
     display: list-item;
     text-align: center;
     display: inline-block;
@@ -96,7 +96,7 @@ article li {
 }
 nav {
     float: right;
-    max-width: 650px;
+    max-width: 100%;
     min-height: 100px;
 }
 a:link { 
@@ -116,6 +116,7 @@ text-decoration: none;
 .list-group-item{
 	background-color: #9bba1f;
 	border: none;
+    width: 100%;
 }
 .list-group-item1{
 	padding-bottom: 10px;
@@ -129,19 +130,20 @@ text-decoration: none;
 }
 .list-group{
 	margin-left: 25px;
+    margin-right: 25px;
 	padding: 2px 2px 2px 2px;
 	font: bold 15px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .list-group a{
-	width: 200px;
+	width: 100%;
 	font-size: 150%;
 	color:white;
 	border-bottom: 1px solid #fff;
 
 }
 .list-group a:hover{
-    width: 200px;
+    width: 100%;
     font-size: 150%;
     color:#9bba1f;
     border-bottom: 1px solid #fff;
@@ -153,5 +155,8 @@ text-decoration: none;
 label{
     padding-top:5px;
 }
-								/*footer*/
+section{
+    margin-top:30px;
+}
+						/*footer*/
 /*het footer*/
