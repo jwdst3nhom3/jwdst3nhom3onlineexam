@@ -19,6 +19,7 @@
   <link href="css/bootstrap.min-theme.css" rel="stylesheet">
   <link href="css/content1.css" rel="stylesheet">
   <link href="css/content2.css" rel="stylesheet">
+  <link href="css/content3.css" rel="stylesheet">
   <script type="text/javascript"src="js/lich.js"></script>
 
 </head>
@@ -36,22 +37,18 @@
             </h1>
             <nav>
               <ul class="menu responsive-menu sf-js-enabled sf-arrows">
-                <li class="current"><a href="#" class="green" style="padding-top: 31px;padding-bottom: 27px;">tài khoản</a></li>
-                <li><a href="#" class="yellow" style="padding-top: 31px;padding-bottom: 27px;">thông báo</a></li>
-                <li><a href="#" class="red" style="padding-top: 31px;padding-bottom: 27px;">hỗ trợ</a></li>
-                <div class="right" style="width: 0;">
-                  <ul class="menu responsive-menu sf-js-enabled sf-arrows">
-                    <li><a href="#" class="blue" style="padding-top: 31px;padding-bottom: 27px;">thoát</a></li>
-                  </ul>
-                </div>
+                <li class="current"><a href="#" class="green">tài khoản</a></li>
+                <li><a href="#" class="yellow">thông báo</a></li>
+                <li><a href="#" class="red">hỗ trợ</a></li>     
+                <li><a href="#" class="blue">thoát</a></li>
               </ul>
             </nav>  
           </div>
-          <div><img src="image/197.jpg" alt style="width: 960px;"></div> 
         </div>
       </div>
     </div>
   </header>
+  <center><img src="image/197.jpg" alt style="width: 88%;"></center> 
 
   <section> 
 
@@ -73,21 +70,21 @@
         <div class="jumbotron">
             <table>
               <tr>
-               <td>Mã Đề: </td>
+               <td>Mã Đề </td>
                <td>
-                 <input class="button" type="text" name="Made">
+                 <input class="input" type="text" name="Made" placeholder ="Nhập mã">
                </td>
              </tr>
              <tr>
-              <td>Tựa đề:</td>
-              <td> <input class="button" type="text" name="Tuade"></td>
+              <td>Tựa đề</td>
+              <td> <input class="input" type="text" name="Tuade" placeholder =" Nhập tựa"></td>
             </tr> 
             <tr>
-              <td>  Thời gian làm bài (Phút):</td>
-              <td> <input class="button" type="text" name="Thoigian"></td>
+              <td>  Thời gian làm bài</td>
+              <td> <input class="input" type="text" name="Thoigian" placeholder =" Phút"></td>
             </tr>
           <tr>
-            <td> Lĩnh Vực:</td>
+            <td> Môn</td>
             <td>
 
               <select class="button" name="linhvuc">
@@ -100,21 +97,17 @@
             </td>
 
           </tr><tr>
-          <td> Số Lượng Câu:</td>
+          <td> Số Câu</td>
           <td>
-            <select class="button" name="soluong" required>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </select>
+          <input class="button" style="width: 50px; " placeholder ="99">
           </td>
         </tr>
         <tr>
           <td>
             <a href="1taobai.html"><button class="button">Hủy</button> </a>
+          </td>
+          <td>
             <a href="4ketthuc.html"><button id="ht" class="button">Hoàn thành</button> </a>
-
           </td>
         </tr>
       </table>
